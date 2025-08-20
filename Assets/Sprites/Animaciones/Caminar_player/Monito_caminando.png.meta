@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: cee06aa695cf53444a975e079b6569a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7776637721342181733
+    second: Monito_caminando_0
+  - first:
+      213: -378805717944192032
+    second: Monito_caminando_1
+  - first:
+      213: 5860524127544427867
+    second: Monito_caminando_2
+  - first:
+      213: -8824767515097529003
+    second: Monito_caminando_3
+  - first:
+      213: -8544646424364297155
+    second: Monito_caminando_4
+  - first:
+      213: 8985467331347151687
+    second: Monito_caminando_5
+  - first:
+      213: 8982043162945279319
+    second: Monito_caminando_6
+  - first:
+      213: -609945793397992821
+    second: Monito_caminando_7
+  - first:
+      213: -6964892637125678945
+    second: Monito_caminando_8
+  - first:
+      213: 1465308031979331260
+    second: Monito_caminando_9
+  - first:
+      213: 1390836499814211891
+    second: Monito_caminando_10
+  - first:
+      213: 4152071493621617311
+    second: Monito_caminando_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monito_caminando_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 16
+        width: 22
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9efe70e135d31490800000000000000
+      internalID: -7776637721342181733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 17
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3bc0fd4363ebaf0800000000000000
+      internalID: -378805717944192032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 22
+        width: 34
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5544e3c4a3c45150800000000000000
+      internalID: 5860524127544427867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 16
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555843d53b0288580800000000000000
+      internalID: -8824767515097529003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 16
+        width: 15
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34547839515b6980800000000000000
+      internalID: -8544646424364297155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 16
+        width: 17
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bf2d94eeac2bc70800000000000000
+      internalID: 8985467331347151687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 16
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7555494faa0a6ac70800000000000000
+      internalID: 8982043162945279319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 16
+        width: 28
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82d44458890987f0800000000000000
+      internalID: -609945793397992821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_8
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 19
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98e3615c0bb75f90800000000000000
+      internalID: -6964892637125678945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 16
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe97ac34e1d55410800000000000000
+      internalID: 1465308031979331260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_10
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 16
+        width: 15
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331e2187d6e3d4310800000000000000
+      internalID: 1390836499814211891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_caminando_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 16
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5216058, y: 0.6089348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92975b560f1f9930800000000000000
+      internalID: 4152071493621617311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2e29a69b86f736f4685319462b243df5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Monito_caminando_0: -7776637721342181733
+      Monito_caminando_1: -378805717944192032
+      Monito_caminando_10: 1390836499814211891
+      Monito_caminando_11: 4152071493621617311
+      Monito_caminando_2: 5860524127544427867
+      Monito_caminando_3: -8824767515097529003
+      Monito_caminando_4: -8544646424364297155
+      Monito_caminando_5: 8985467331347151687
+      Monito_caminando_6: 8982043162945279319
+      Monito_caminando_7: -609945793397992821
+      Monito_caminando_8: -6964892637125678945
+      Monito_caminando_9: 1465308031979331260
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
