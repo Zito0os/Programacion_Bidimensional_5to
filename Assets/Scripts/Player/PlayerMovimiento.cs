@@ -9,7 +9,7 @@ public class PlayerMovimiento : MonoBehaviour
     public SpriteRenderer spriteRenderer; // Para voltear el personaje
     public SpriteRenderer Mano_arma; // Para voltear el personaje
     //public SpriteRenderer spawnbala; // Para voltear el personaje
-    public SpriteRenderer cabeza; // Para voltear el personaje
+
     //public SpriteRenderer spriteArma; // Para voltear el personaje
 
     public Rigidbody2D Rigidbody;
@@ -24,6 +24,8 @@ public class PlayerMovimiento : MonoBehaviour
     public LayerMask groundMask;
     bool isGrounded;
 
+
+    private bool facingRight = true; // estado actual
 
     public Transform crosshair; // la mirilla
 
@@ -55,11 +57,31 @@ public class PlayerMovimiento : MonoBehaviour
         // Dirección a la que me estoy moviendo
         bool movingRight = (x > 0);
 
-        // Sprite del jugador se voltea SOLO segun hacia dónde apunto
+
+        //if (aimingRight && !facingRight)
+        //{
+        //    Flip();
+        //}
+        //else if (!aimingRight && facingRight)
+        //{
+        //    Flip();
+        //}
+
+
+
+
+        //Sprite del jugador se voltea SOLO segun hacia dónde apunto
         spriteRenderer.flipX = !aimingRight;
         Mano_arma.flipY = !aimingRight;
-        cabeza.flipX = !aimingRight;
-        //spawnbala.flipX = false;
+
+
+        //float moveX = Input.GetAxisRaw("Horizontal");
+        //if (moveX != 0)
+        //{
+        //    GetComponent<PlayerFlip>().Flip(moveX);
+        //}
+
+
 
         // Detectar si estoy caminando hacia atrás
         if (x != 0) // solo si hay movimiento
@@ -70,25 +92,6 @@ public class PlayerMovimiento : MonoBehaviour
         {
             animator.SetBool("WalkBackwards", false);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         //// Voltear sprite
         //if (x > 0)
@@ -102,7 +105,7 @@ public class PlayerMovimiento : MonoBehaviour
 
 
 
-
+ 
 
         //Salto
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -114,5 +117,15 @@ public class PlayerMovimiento : MonoBehaviour
 
         }
         animator.SetBool("ensuelo", isGrounded);
+
     }
+
+    //void Flip()
+    //{
+    //    facingRight = !facingRight;
+    //    Vector3 localScale = transform.localScale;
+    //    localScale.x *= -1; // volteamos TODO el personaje
+    //    transform.localScale = localScale;
+    //}
+
 }

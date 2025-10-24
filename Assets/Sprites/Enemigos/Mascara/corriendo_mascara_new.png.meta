@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: cee06aa695cf53444a975e079b6569a3
+guid: 6d792a0c0a3a7544bb0144c3d49f46cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7776637721342181733
-    second: Monito_caminando_0
+      213: 7819529392621462858
+    second: corriendo_mascara_new_0
   - first:
-      213: -378805717944192032
-    second: Monito_caminando_1
+      213: 491701005222227380
+    second: corriendo_mascara_new_1
   - first:
-      213: 5860524127544427867
-    second: Monito_caminando_2
+      213: -6837995518192132897
+    second: corriendo_mascara_new_2
   - first:
-      213: -8824767515097529003
-    second: Monito_caminando_3
+      213: -8441087955819525687
+    second: corriendo_mascara_new_3
   - first:
-      213: -8544646424364297155
-    second: Monito_caminando_4
+      213: -6080645191202667547
+    second: corriendo_mascara_new_4
   - first:
-      213: 8985467331347151687
-    second: Monito_caminando_5
+      213: -2085697695301866716
+    second: corriendo_mascara_new_5
   - first:
-      213: 8982043162945279319
-    second: Monito_caminando_6
+      213: -7116441934941119110
+    second: corriendo_mascara_new_6
   - first:
-      213: -609945793397992821
-    second: Monito_caminando_7
+      213: -6015503092237354752
+    second: corriendo_mascara_new_7
   - first:
-      213: -6964892637125678945
-    second: Monito_caminando_8
+      213: 394097418221316143
+    second: corriendo_mascara_new_8
   - first:
-      213: 1465308031979331260
-    second: Monito_caminando_9
+      213: 6519671163161606470
+    second: corriendo_mascara_new_9
   - first:
-      213: 1390836499814211891
-    second: Monito_caminando_10
+      213: 986563106416005035
+    second: corriendo_mascara_new_10
   - first:
-      213: 4152071493621617311
-    second: Monito_caminando_11
+      213: -5493556591611091200
+    second: corriendo_mascara_new_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -172,265 +172,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monito_caminando_0
+      name: corriendo_mascara_new_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 16
-        width: 22
-        height: 33
+        x: 22
+        y: 7
+        width: 42
+        height: 50
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9efe70e135d31490800000000000000
-      internalID: -7776637721342181733
+      spriteID: a45aded8d8c848c60800000000000000
+      internalID: 7819529392621462858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_1
+      name: corriendo_mascara_new_1
       rect:
         serializedVersion: 2
         x: 84
-        y: 17
-        width: 26
-        height: 33
+        y: 8
+        width: 44
+        height: 52
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e3bc0fd4363ebaf0800000000000000
-      internalID: -378805717944192032
+      spriteID: 4bd29f7857fd2d600800000000000000
+      internalID: 491701005222227380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_2
+      name: corriendo_mascara_new_2
       rect:
         serializedVersion: 2
         x: 146
-        y: 22
-        width: 34
-        height: 29
+        y: 13
+        width: 46
+        height: 48
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5544e3c4a3c45150800000000000000
-      internalID: 5860524127544427867
+      spriteID: fdcd1723e4f8a11a0800000000000000
+      internalID: -6837995518192132897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_3
+      name: corriendo_mascara_new_3
       rect:
         serializedVersion: 2
-        x: 217
-        y: 16
-        width: 21
-        height: 32
+        x: 214
+        y: 7
+        width: 42
+        height: 50
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 555843d53b0288580800000000000000
-      internalID: -8824767515097529003
+      spriteID: 9c98c8b1a3b3bda80800000000000000
+      internalID: -8441087955819525687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_4
+      name: corriendo_mascara_new_4
       rect:
         serializedVersion: 2
-        x: 281
-        y: 16
-        width: 15
-        height: 32
+        x: 278
+        y: 7
+        width: 42
+        height: 50
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d34547839515b6980800000000000000
-      internalID: -8544646424364297155
+      spriteID: 5e38d2d4a653d9ba0800000000000000
+      internalID: -6080645191202667547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_5
+      name: corriendo_mascara_new_5
       rect:
         serializedVersion: 2
-        x: 345
-        y: 16
-        width: 17
-        height: 32
+        x: 342
+        y: 7
+        width: 42
+        height: 50
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74bf2d94eeac2bc70800000000000000
-      internalID: 8985467331347151687
+      spriteID: 42b6ea22ffc1e03e0800000000000000
+      internalID: -2085697695301866716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_6
+      name: corriendo_mascara_new_6
       rect:
         serializedVersion: 2
         x: 405
-        y: 16
-        width: 23
-        height: 33
+        y: 7
+        width: 43
+        height: 51
       alignment: 9
-      pivot: {x: 0.49161696, y: 0.6994295}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7555494faa0a6ac70800000000000000
-      internalID: 8982043162945279319
+      spriteID: a7d1423c3c15d3d90800000000000000
+      internalID: -7116441934941119110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_7
+      name: corriendo_mascara_new_7
       rect:
         serializedVersion: 2
         x: 467
-        y: 16
-        width: 28
-        height: 34
+        y: 7
+        width: 45
+        height: 52
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b82d44458890987f0800000000000000
-      internalID: -609945793397992821
+      spriteID: 009bde12fc3a48ca0800000000000000
+      internalID: -6015503092237354752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_8
+      name: corriendo_mascara_new_8
       rect:
         serializedVersion: 2
         x: 533
-        y: 19
-        width: 34
-        height: 30
+        y: 10
+        width: 45
+        height: 48
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f98e3615c0bb75f90800000000000000
-      internalID: -6964892637125678945
+      spriteID: f28eafb838d187500800000000000000
+      internalID: 394097418221316143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_9
+      name: corriendo_mascara_new_9
       rect:
         serializedVersion: 2
         x: 599
-        y: 16
-        width: 21
-        height: 32
+        y: 7
+        width: 43
+        height: 50
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbe97ac34e1d55410800000000000000
-      internalID: 1465308031979331260
+      spriteID: 649fa9451668a7a50800000000000000
+      internalID: 6519671163161606470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_10
+      name: corriendo_mascara_new_10
       rect:
         serializedVersion: 2
-        x: 667
-        y: 16
-        width: 15
-        height: 32
+        x: 663
+        y: 7
+        width: 42
+        height: 50
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 331e2187d6e3d4310800000000000000
-      internalID: 1390836499814211891
+      spriteID: baf8e621be9f0bd00800000000000000
+      internalID: 986563106416005035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monito_caminando_11
+      name: corriendo_mascara_new_11
       rect:
         serializedVersion: 2
-        x: 729
-        y: 16
-        width: 21
-        height: 32
+        x: 727
+        y: 7
+        width: 41
+        height: 50
       alignment: 9
-      pivot: {x: 0.5216058, y: 0.6089348}
+      pivot: {x: 0.29, y: 0.4332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f92975b560f1f9930800000000000000
-      internalID: 4152071493621617311
+      spriteID: 007e383d267f2c3b0800000000000000
+      internalID: -5493556591611091200
       vertices: []
       indices: 
       edges: []
@@ -439,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2e29a69b86f736f4685319462b243df5
+    spriteID: 9e5a70535d43573488325e3250c95eae
     internalID: 0
     vertices: []
     indices: 
@@ -449,18 +449,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Monito_caminando_0: -7776637721342181733
-      Monito_caminando_1: -378805717944192032
-      Monito_caminando_10: 1390836499814211891
-      Monito_caminando_11: 4152071493621617311
-      Monito_caminando_2: 5860524127544427867
-      Monito_caminando_3: -8824767515097529003
-      Monito_caminando_4: -8544646424364297155
-      Monito_caminando_5: 8985467331347151687
-      Monito_caminando_6: 8982043162945279319
-      Monito_caminando_7: -609945793397992821
-      Monito_caminando_8: -6964892637125678945
-      Monito_caminando_9: 1465308031979331260
+      corriendo_mascara_new_0: 7819529392621462858
+      corriendo_mascara_new_1: 491701005222227380
+      corriendo_mascara_new_10: 986563106416005035
+      corriendo_mascara_new_11: -5493556591611091200
+      corriendo_mascara_new_2: -6837995518192132897
+      corriendo_mascara_new_3: -8441087955819525687
+      corriendo_mascara_new_4: -6080645191202667547
+      corriendo_mascara_new_5: -2085697695301866716
+      corriendo_mascara_new_6: -7116441934941119110
+      corriendo_mascara_new_7: -6015503092237354752
+      corriendo_mascara_new_8: 394097418221316143
+      corriendo_mascara_new_9: 6519671163161606470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -142,11 +142,11 @@ TextureImporter:
       name: cabeza_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 19
-      alignment: 0
+        x: 1
+        y: 1
+        width: 15
+        height: 17
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf441d461bd9a854dba0676ae4b2230a
     internalID: 0
     vertices: []
     indices: 

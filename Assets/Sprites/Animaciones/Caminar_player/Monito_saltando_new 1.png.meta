@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: c06cdfa47682e4d4eb286259a028427e
+guid: 86feda774528c1a4e922b52d88bd97f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3516931002679625733
-    second: Monito_base_0
+      213: 4756289659382044212
+    second: Monito_saltando_new 1_0
+  - first:
+      213: 365966374160269099
+    second: Monito_saltando_new 1_1
+  - first:
+      213: 7240464119620955541
+    second: Monito_saltando_new 1_2
+  - first:
+      213: 8138824261965548108
+    second: Monito_saltando_new 1_3
+  - first:
+      213: 1147095307812118500
+    second: Monito_saltando_new 1_4
+  - first:
+      213: -6627431114007373162
+    second: Monito_saltando_new 1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,11 +61,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.3682883, y: 0.55891216}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -139,23 +154,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monito_base_0
+      name: Monito_saltando_new 1_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 1
-        width: 29
-        height: 42
+        x: 24
+        y: 2
+        width: 23
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf7f8b5f2e9513fc0800000000000000
-      internalID: -3516931002679625733
+      spriteID: 436945cce3cb10240800000000000000
+      internalID: 4756289659382044212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_saltando_new 1_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f7f837a7c241500800000000000000
+      internalID: 365966374160269099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_saltando_new 1_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 6
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59de7f251cb4b7460800000000000000
+      internalID: 7240464119620955541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_saltando_new 1_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 8
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a89cf7b89e2f070800000000000000
+      internalID: 8138824261965548108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_saltando_new 1_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 9
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef98a9da1d4bef00800000000000000
+      internalID: 1147095307812118500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monito_saltando_new 1_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 10
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a1834f382a604a0800000000000000
+      internalID: -6627431114007373162
       vertices: []
       indices: 
       edges: []
@@ -164,8 +289,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -174,7 +299,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Monito_base_0: -3516931002679625733
+      Monito_saltando_new 1_0: 4756289659382044212
+      Monito_saltando_new 1_1: 365966374160269099
+      Monito_saltando_new 1_2: 7240464119620955541
+      Monito_saltando_new 1_3: 8138824261965548108
+      Monito_saltando_new 1_4: 1147095307812118500
+      Monito_saltando_new 1_5: -6627431114007373162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

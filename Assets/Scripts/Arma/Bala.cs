@@ -9,14 +9,15 @@ public class Bala : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Destroy(collision.gameObject); // Destruye enemigo
+            Destroy(gameObject); // Destruye bala
         }
 
-        //if (collision.gameObject.CompareTag("Piso"))
-        //{
-        //    // Si choca con el jugador, no hace nada
-        //    Destroy(gameObject); // Destruye bala
-        //    //return;
-        //}
+        if (collision.gameObject.CompareTag("Piso"))
+        {
+            // Si choca con el jugador, no hace nada
+            Destroy(gameObject); // Destruye bala
+            //return;
+        }
         if (collision.gameObject.CompareTag("Player"))
         {
             
