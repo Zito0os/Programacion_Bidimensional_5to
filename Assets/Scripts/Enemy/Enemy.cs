@@ -3,19 +3,18 @@ using UnityEngine.Rendering;
 
 public class Enemy : MonoBehaviour
 {
-
     public float velocidad = 3f;
     public float rangoDeteccion = 15f;
+    public float rangoParada = 7.5f; // nueva distancia m√≠nima: si el jugador est√° m√°s cerca que esto, el enemigo se detiene
 
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer sprite;
 
+    public Transform jugador; // Visible en el inspector, pero se llenar√° solo
 
-    public Transform jugador; // Visible en el inspector, pero se llenar· solo
-
-
-
+    // Umbral para dejar de moverse cuando ya est√° casi alineado horizontalmente
+    private const float umbralParadaHorizontal = 0.05f;
 
     void Start()
     {
@@ -34,43 +33,47 @@ public class Enemy : MonoBehaviour
     {
         if (jugador == null) return;
 
-        float distancia = Vector2.Distance(transform.position, jugador.position);
+        // Distancia horizontal unicamente ignorando eje Y
+        float distanciaHorizontal = Mathf.Abs(jugador.position.x - transform.position.x);
+        // la detecci√≥n usa distancia total (X e Y)
+        float distanciaTotal = Vector2.Distance(transform.position, jugador.position); // detecci√≥n completa
 
-        // Solo sigue si est· dentro del rango
-        if (distancia < rangoDeteccion)
+        // Aqu√≠ lo limitamos al rango horizontal:
+        if (distanciaTotal < rangoDeteccion && distanciaTotal > rangoParada) // usamos distancia total para la detecci√≥n y se detiene si es <= rangoParada
         {
-            Vector2 direccion = (jugador.position - transform.position).normalized;
-            rb.MovePosition(rb.position + direccion * velocidad * Time.fixedDeltaTime);
+            // Determinar direccion horizontal
+            float deltaX = jugador.position.x - transform.position.x;
 
-            // Activar animaciÛn de caminar
+            // Si ya est√° pr√°cticamente alineado, no se mueve
+            if (distanciaHorizontal <= umbralParadaHorizontal)
+            {
+                animator.SetBool("caminando", false);
+                return;
+            }
+
+            float direccionX = Mathf.Sign(deltaX); // -1 izquierda, 1 derecha
+            Vector2 movimiento = new Vector2(direccionX, 0f);
+            // Mover enemigo
+            rb.MovePosition(rb.position + movimiento * velocidad * Time.fixedDeltaTime);
+            // Animaci√≥n caminar
             animator.SetBool("caminando", true);
-
-            // Voltear sprite seg˙n direcciÛn
+            // Voltear sprite segun direcci√≥n
             if (sprite != null)
-                sprite.flipX = direccion.x < 0;
+                sprite.flipX = direccionX < 0;
         }
         else
         {
-            // Detener animaciÛn
+            //fuera de rango, no se mueve (o demasiado cerca)
             animator.SetBool("caminando", false);
         }
-
     }
-
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        int daÒo = 20;
-        // Si choca con un enemigo
+        int da√±o = 20;
         if (collision.gameObject.CompareTag("Player"))
         {
-
-            GameManager.Instance.ReduceHealth(daÒo);
-
-
+            GameManager.Instance.ReduceHealth(da√±o);
         }
-
-        
     }
 }
