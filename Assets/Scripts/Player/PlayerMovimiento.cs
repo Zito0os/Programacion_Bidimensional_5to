@@ -46,7 +46,7 @@ public class PlayerMovimiento : MonoBehaviour
         // Animación caminar/idle
         animator.SetFloat("Speed", Mathf.Abs(x));
 
-      
+        
 
 
 
@@ -71,8 +71,23 @@ public class PlayerMovimiento : MonoBehaviour
 
 
         //Sprite del jugador se voltea SOLO segun hacia dónde apunto
-        spriteRenderer.flipX = !aimingRight;
-        Mano_arma.flipY = !aimingRight;
+        animator.SetBool("lado_izq", spriteRenderer.flipX);
+        //spriteRenderer.flipX = !aimingRight;
+        //Mano_arma.flipY = !aimingRight;
+
+
+        if (x > 0)
+        {
+            spriteRenderer.flipX = !aimingRight;
+            Mano_arma.flipY = !aimingRight;
+        }
+        else if (x < 0)
+        {
+            //spriteRenderer.flipX = aimingRight;
+            //Mano_arma.flipY = aimingRight;
+        }
+
+
 
 
         //float moveX = Input.GetAxisRaw("Horizontal");
@@ -102,10 +117,10 @@ public class PlayerMovimiento : MonoBehaviour
         //else if (x < 0)
         //    Mano_arma.flipX = true;
 
+        
 
 
 
- 
 
         //Salto
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)

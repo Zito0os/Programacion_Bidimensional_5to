@@ -76,8 +76,6 @@ public class Gun2D : MonoBehaviour
         // Destruir la bala después de 1 segundo
         Destroy(newBullet, .5f);
 
-        
-
 
     }
 

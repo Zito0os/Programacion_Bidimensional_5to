@@ -22,6 +22,7 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+
         if (jugador == null)
         {
             GameObject playerObj = GameObject.FindWithTag("Player");
@@ -39,6 +40,7 @@ public class Enemy : MonoBehaviour
         // Solo sigue si está dentro del rango
         if (distancia < rangoDeteccion)
         {
+            //ReduceHealth(int amount);
             Vector2 direccion = (jugador.position - transform.position).normalized;
             rb.MovePosition(rb.position + direccion * velocidad * Time.fixedDeltaTime);
 
@@ -71,6 +73,6 @@ public class Enemy : MonoBehaviour
 
         }
 
-        
+     
     }
 }
