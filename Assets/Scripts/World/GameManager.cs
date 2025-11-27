@@ -36,5 +36,22 @@ public class GameManager : MonoBehaviour
             health = 0; // Evitar valores negativos
         }
     }
+    public void AddHealth(int amount)
+    {
+        health += amount;
+        if (health > 100)
+        {
+            health = 100; // Evitar valores mayores a 100
+        }
+    }
+
+    public void AddAmmo(int amount)
+    {
+        gunammo += amount;
+        if (gunammo > 20)
+        {
+            gunammo = 20; // Evitar valores mayores a 20 (se lo puse asi pq una pistolita no tiene 60 balas lol)
+        }
+    }
 
 }
