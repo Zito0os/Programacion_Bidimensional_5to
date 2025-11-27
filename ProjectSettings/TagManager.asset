@@ -13,7 +13,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - Brazo_arma
   - 
   - 
   - 
@@ -42,6 +42,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Arma
+    uniqueID: 278463735
+    locked: 0
+  - name: Monito
+    uniqueID: 725959571
     locked: 0
   m_RenderingLayers:
   - Default
