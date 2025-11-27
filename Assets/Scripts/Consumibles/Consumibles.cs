@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // Script para objetos consumibles (botiquines, recargas de munición)
-// Coloca este script en el prefab del consumible y selecciona el tipo y cantidad en el inspector.
+//este scriptva  en el prefab del consumible y selecciona el tipo y cantidad en el inspector pa ver cuanto le pones
 [RequireComponent(typeof(Collider2D))]
 public class Consumibles : MonoBehaviour
 {
@@ -36,7 +36,7 @@ public class Consumibles : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Alternativa si no se usa trigger
+        // por si el triger no jala se usa tmb el d colision
         if (!collision.gameObject.CompareTag("Player")) return;
         AplicarEfecto();
     }
