@@ -1,4 +1,3 @@
-using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 
 
@@ -71,21 +70,21 @@ public class PlayerMovimiento : MonoBehaviour
 
 
         //Sprite del jugador se voltea SOLO segun hacia dónde apunto
-        animator.SetBool("lado_izq", spriteRenderer.flipX);
-        //spriteRenderer.flipX = !aimingRight;
-        //Mano_arma.flipY = !aimingRight;
+        //animator.SetBool("lado_izq", spriteRenderer.flipX);
+        spriteRenderer.flipX = !aimingRight;
+        Mano_arma.flipY = !aimingRight;
 
 
-        if (x > 0)
-        {
-            spriteRenderer.flipX = !aimingRight;
-            Mano_arma.flipY = !aimingRight;
-        }
-        else if (x < 0)
-        {
-            //spriteRenderer.flipX = aimingRight;
-            //Mano_arma.flipY = aimingRight;
-        }
+        //if (x > 0)
+        //{
+        //    spriteRenderer.flipX = !aimingRight;
+        //    Mano_arma.flipY = !aimingRight;
+        //}
+        //else if (x < 0)
+        //{
+        //    spriteRenderer.flipX = aimingRight;
+        //    Mano_arma.flipY = aimingRight;
+        //}
 
 
 

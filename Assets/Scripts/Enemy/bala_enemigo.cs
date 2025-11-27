@@ -1,24 +1,16 @@
 using UnityEngine;
 
-
-public class Bala : MonoBehaviour
+public class bala_enemigo : MonoBehaviour
 {
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Si choca con un enemigo
-        if (collision.gameObject.CompareTag("Enemy"))
+        // Si choca con un player
+        if (collision.gameObject.CompareTag("Player"))
         {
 
-            
-            // Referencia al script del enemigo
-            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
-            if (enemy != null)
-            {
-                enemy.QuitarVida(20); // Llama al mÃ©todo para quitarle vida
-            }
+            int daño = 5;
+            GameManager.Instance.ReduceHealth(daño);
             Destroy(gameObject); // Destruye bala
-
 
 
         }
@@ -29,16 +21,14 @@ public class Bala : MonoBehaviour
             Destroy(gameObject); // Destruye bala
             //return;
         }
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
-            
+
             // Si choca con el jugador, no hace nada
             //Destroy(gameObject); // Destruye bala
             return;
         }
 
 
-
-        //Destroy(gameObject); // Destruye bala
     }
 }
