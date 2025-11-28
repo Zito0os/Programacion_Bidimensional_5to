@@ -1,49 +1,43 @@
 fileFormatVersion: 2
-guid: de1092ae421c53645bbe2de22b72979f
+guid: 393a2a270984b9d42a8d3d75f0a731d2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -285282551968536273
-    second: mono-picos-disparo-bien_0
+      213: 8841210802221658173
+    second: mono-picos-caminar-bien_0
   - first:
-      213: -2854149438504192211
-    second: mono-picos-disparo-bien_1
+      213: 3857862648557077517
+    second: mono-picos-caminar-bien_1
   - first:
-      213: 3861713047611308499
-    second: mono-picos-disparo-bien_2
+      213: 5476393865696041458
+    second: mono-picos-caminar-bien_2
   - first:
-      213: -2454084981868210780
-    second: mono-picos-disparo-bien_3
+      213: -7202951559990176398
+    second: mono-picos-caminar-bien_3
   - first:
-      213: 2630442767411199270
-    second: mono-picos-disparo-bien_4
+      213: 6869552064087155579
+    second: mono-picos-caminar-bien_4
   - first:
-      213: 3081940965763017992
-    second: mono-picos-disparo-bien_5
+      213: -4707745798227683261
+    second: mono-picos-caminar-bien_5
   - first:
-      213: -9492218181254571
-    second: mono-picos-disparo-bien_6
+      213: -8530597657561029057
+    second: mono-picos-caminar-bien_6
   - first:
-      213: -2904288775980518097
-    second: mono-picos-disparo-bien_7
+      213: -5699855784751842174
+    second: mono-picos-caminar-bien_7
   - first:
-      213: 8020974326709833310
-    second: mono-picos-disparo-bien_8
+      213: 9108487528500984825
+    second: mono-picos-caminar-bien_8
   - first:
-      213: -4702460796644924890
-    second: mono-picos-disparo-bien_9
+      213: -538383674066203145
+    second: mono-picos-caminar-bien_9
   - first:
-      213: 8365106371604459957
-    second: mono-picos-disparo-bien_10
+      213: 5603284749975651269
+    second: mono-picos-caminar-bien_10
   - first:
-      213: 500933500557676173
-    second: mono-picos-disparo-bien_11
-  - first:
-      213: -4222743569754654703
-    second: mono-picos-disparo-bien_12
-  - first:
-      213: -8703661633423246036
-    second: mono-picos-disparo-bien_13
+      213: -2186538585199784297
+    second: mono-picos-caminar-bien_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,13 +172,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_0
+      name: mono-picos-caminar-bien_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 20
-        width: 112
-        height: 80
+        x: 48
+        y: 13
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f296c4dc7097a0cf0800000000000000
-      internalID: -285282551968536273
+      spriteID: d30b4c2c16a42ba70800000000000000
+      internalID: 8841210802221658173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_1
+      name: mono-picos-caminar-bien_1
       rect:
         serializedVersion: 2
         x: 112
-        y: 20
-        width: 112
-        height: 80
+        y: 12
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d27b31625360468d0800000000000000
-      internalID: -2854149438504192211
+      spriteID: d040e7793a1e98530800000000000000
+      internalID: 3857862648557077517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_2
+      name: mono-picos-caminar-bien_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 20
-        width: 112
-        height: 80
+        x: 176
+        y: 12
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d9fc5b7e8f879530800000000000000
-      internalID: 3861713047611308499
+      spriteID: 2f9d0f6a43f000c40800000000000000
+      internalID: 5476393865696041458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_3
+      name: mono-picos-caminar-bien_3
       rect:
         serializedVersion: 2
-        x: 336
-        y: 20
-        width: 112
-        height: 80
+        x: 240
+        y: 12
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a5df1716b651fdd0800000000000000
-      internalID: -2454084981868210780
+      spriteID: 275907418b9f90c90800000000000000
+      internalID: -7202951559990176398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_4
+      name: mono-picos-caminar-bien_4
       rect:
         serializedVersion: 2
-        x: 448
-        y: 20
-        width: 112
-        height: 80
+        x: 304
+        y: 12
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +275,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62d3a81a2c5318420800000000000000
-      internalID: 2630442767411199270
+      spriteID: b7367f1b43d855f50800000000000000
+      internalID: 6869552064087155579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_5
+      name: mono-picos-caminar-bien_5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 12
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3481dc3a32abaaeb0800000000000000
+      internalID: -4707745798227683261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-picos-caminar-bien_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 12
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36ab43a0aa3d9980800000000000000
+      internalID: -8530597657561029057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-picos-caminar-bien_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 11
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c39e6ec5b06e0b0800000000000000
+      internalID: -5699855784751842174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-picos-caminar-bien_8
       rect:
         serializedVersion: 2
         x: 560
-        y: 20
-        width: 112
-        height: 80
+        y: 15
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80d6703caf045ca20800000000000000
-      internalID: 3081940965763017992
+      spriteID: 9fb7069f529d76e70800000000000000
+      internalID: 9108487528500984825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_6
+      name: mono-picos-caminar-bien_9
       rect:
         serializedVersion: 2
-        x: 672
-        y: 20
-        width: 112
-        height: 80
+        x: 624
+        y: 13
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,20 +385,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5520d2bb0e64edff0800000000000000
-      internalID: -9492218181254571
+      spriteID: 7fd0a62a6e64788f0800000000000000
+      internalID: -538383674066203145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_7
+      name: mono-picos-caminar-bien_10
       rect:
         serializedVersion: 2
-        x: 784
-        y: 20
-        width: 112
-        height: 80
+        x: 688
+        y: 13
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f25f68eeeb4e1b7d0800000000000000
-      internalID: -2904288775980518097
+      spriteID: 5c389a9eacdd2cd40800000000000000
+      internalID: 5603284749975651269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_8
+      name: mono-picos-caminar-bien_11
       rect:
         serializedVersion: 2
-        x: 896
-        y: 20
-        width: 112
-        height: 80
+        x: 752
+        y: 13
+        width: 42
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,30 +429,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5e411837a9305f60800000000000000
-      internalID: 8020974326709833310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mono-picos-disparo-bien_9
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 20
-        width: 112
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62267c5f1d08dbeb0800000000000000
-      internalID: -4702460796644924890
+      spriteID: 79e4b75ddbad7a1e0800000000000000
+      internalID: -2186538585199784297
       vertices: []
       indices: 
       edges: []
@@ -401,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 428e8f672ce43744da5f0968857f3ee2
+    spriteID: e908ea7e693b5ec489b8306613c6e5e0
     internalID: 0
     vertices: []
     indices: 
@@ -411,16 +449,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mono-picos-disparo-bien_0: -285282551968536273
-      mono-picos-disparo-bien_1: -2854149438504192211
-      mono-picos-disparo-bien_2: 3861713047611308499
-      mono-picos-disparo-bien_3: -2454084981868210780
-      mono-picos-disparo-bien_4: 2630442767411199270
-      mono-picos-disparo-bien_5: 3081940965763017992
-      mono-picos-disparo-bien_6: -9492218181254571
-      mono-picos-disparo-bien_7: -2904288775980518097
-      mono-picos-disparo-bien_8: 8020974326709833310
-      mono-picos-disparo-bien_9: -4702460796644924890
+      mono-picos-caminar-bien_0: 8841210802221658173
+      mono-picos-caminar-bien_1: 3857862648557077517
+      mono-picos-caminar-bien_10: 5603284749975651269
+      mono-picos-caminar-bien_11: -2186538585199784297
+      mono-picos-caminar-bien_2: 5476393865696041458
+      mono-picos-caminar-bien_3: -7202951559990176398
+      mono-picos-caminar-bien_4: 6869552064087155579
+      mono-picos-caminar-bien_5: -4707745798227683261
+      mono-picos-caminar-bien_6: -8530597657561029057
+      mono-picos-caminar-bien_7: -5699855784751842174
+      mono-picos-caminar-bien_8: 9108487528500984825
+      mono-picos-caminar-bien_9: -538383674066203145
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

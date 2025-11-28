@@ -38,6 +38,21 @@ public class Bala : MonoBehaviour
 
 
         }
+        if (collision.gameObject.CompareTag("Picos"))
+        {
+
+
+            // Referencia al script del enemigo
+            Enemy_picos picos = collision.gameObject.GetComponent<Enemy_picos>();
+            if (picos != null)
+            {
+                picos.QuitarVida(20); // Llama al método para quitarle vida
+            }
+            Destroy(gameObject); // Destruye bala
+
+
+
+        }
 
 
 

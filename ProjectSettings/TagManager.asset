@@ -9,6 +9,7 @@ TagManager:
   - AmmoText
   - HealthText
   - Gordo
+  - Picos
   layers:
   - Default
   - TransparentFX

@@ -1,22 +1,20 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Rendering;
 
-public class Enemy : MonoBehaviour
+public class Enemy_picos : MonoBehaviour
 {
     public float velocidad = 3f;
     public float Vida = 100f;
     public float rangoDeteccion = 1f;
-    public float rangoParada = .5f; // nueva distancia m√≠nima: si el jugador est√° m√°s cerca que esto, el enemigo dispara
+    public float rangoParada = .5f; // nueva distancia mÌnima: si el jugador est· m·s cerca que esto, el enemigo dispara
 
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer sprite;
     private arma_enemy arma;
 
-    public Transform jugador; // Visible en el inspector, pero se llenar√° solo
+    public Transform jugador; // Visible en el inspector, pero se llenar· solo
 
-    // Umbral para dejar de moverse cuando ya est√° casi alineado horizontalmente
+    // Umbral para dejar de moverse cuando ya est· casi alineado horizontalmente
     private const float umbralParadaHorizontal = 0.05f;
 
     void Start()
@@ -40,11 +38,11 @@ public class Enemy : MonoBehaviour
 
         // Distancia horizontal unicamente ignorando eje Y
         float distanciaHorizontal = Mathf.Abs(jugador.position.x - transform.position.x);
-        // la detecci√≥n usa distancia total (X e Y)
-        float distanciaTotal = Vector2.Distance(transform.position, jugador.position); // detecci√≥n completa
+        // la detecciÛn usa distancia total (X e Y)
+        float distanciaTotal = Vector2.Distance(transform.position, jugador.position); // detecciÛn completa
 
-        // Aqu√≠ lo limitamos al rango horizontal:
-        if (distanciaTotal < rangoDeteccion) // usamos distancia total para la detecci√≥n y se detiene si es <= rangoParada
+        // AquÌ lo limitamos al rango horizontal:
+        if (distanciaTotal < rangoDeteccion) // usamos distancia total para la detecciÛn y se detiene si es <= rangoParada
         {
             //si esta dentro del rango va a disparars
             if (distanciaTotal < rangoParada)
@@ -66,7 +64,7 @@ public class Enemy : MonoBehaviour
                 // Determinar direccion horizontal
                 float deltaX = jugador.position.x - transform.position.x;
 
-                // Si ya est√° pr√°cticamente alineado, no se mueve
+                // Si ya est· pr·cticamente alineado, no se mueve
                 if (distanciaHorizontal <= umbralParadaHorizontal)
                 {
                     animator.SetBool("caminando", false);
@@ -76,11 +74,11 @@ public class Enemy : MonoBehaviour
                 float direccionX = Mathf.Sign(deltaX); // -1 izquierda, 1 derecha
                 Vector2 movimiento = new Vector2(direccionX, 0f);
                 // Mover enemigo
-                
+
                 rb.MovePosition(rb.position + movimiento * velocidad * Time.fixedDeltaTime);
 
 
-                // Voltear sprite segun direcci√≥n
+                // Voltear sprite segun direcciÛn
                 if (sprite != null)
                     sprite.flipX = direccionX < 0;
             }
@@ -98,10 +96,10 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        int da√±o = 20;
+        int daÒo = 20;
         if (collision.gameObject.CompareTag("Player"))
         {
-            GameManager.Instance.ReduceHealth(da√±o);
+            GameManager.Instance.ReduceHealth(daÒo);
         }
     }
 
@@ -123,16 +121,13 @@ public class Enemy : MonoBehaviour
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
-            rb.simulated = false; // Desactiva la f√≠sica
+            rb.simulated = false; // Desactiva la fÌsica
         }
 
-        // Activar animaci√≥n de muerte
+        // Activar animaciÛn de muerte
         animator.SetBool("islive", false);
 
-        // Destruir despu√©s de que termine la animaci√≥n (ajusta el tiempo seg√∫n tu animaci√≥n)
-        Destroy(gameObject, .85f); // 1 segundo, ajusta seg√∫n la duraci√≥n de tu animaci√≥n
+        // Destruir despuÈs de que termine la animaciÛn (ajusta el tiempo seg˙n tu animaciÛn)
+        Destroy(gameObject, .85f); // 1 segundo, ajusta seg˙n la duraciÛn de tu animaciÛn
     }
-
-
-
 }

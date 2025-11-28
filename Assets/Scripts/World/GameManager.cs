@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI ammoText;
     public TextMeshProUGUI healthText;
     [SerializeField] private float tiempoEspera = 2f;
-    public int gunammo = 60;
+    public int gunammo = 32;
     public int health = 100;
     private float tiempoInicio;
     private bool jugadorMuerto = false;
@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
     private void CargarSiguienteEscena()
     {
         health = 100;
-        gunammo = 60;
+        gunammo = 32;
         int indiceActual = SceneManager.GetActiveScene().buildIndex;
         int indiceSiguiente = indiceActual + 1;
 
@@ -94,7 +94,26 @@ public class GameManager : MonoBehaviour
     public void ResetearEstadisticas()
     {
         health = 100;
-        gunammo = 60;
+        gunammo = 32;
         jugadorMuerto = false;
+    }
+
+
+    public void AddHealth(int amount)
+    {
+        health += amount;
+        if (health > 100)
+        {
+            health = 100; // Evitar valores mayores a 100
+        }
+    }
+
+    public void AddAmmo(int amount)
+    {
+        gunammo += amount;
+        if (gunammo > 32)
+        {
+            gunammo = 32; // Evitar valores mayores a 20 (se lo puse asi pq una pistolita no tiene 60 balas lol)
+        }
     }
 }

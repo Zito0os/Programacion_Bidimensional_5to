@@ -1,49 +1,25 @@
 fileFormatVersion: 2
-guid: de1092ae421c53645bbe2de22b72979f
+guid: 677996cb47a81eb4c8d3674ef67304c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -285282551968536273
-    second: mono-picos-disparo-bien_0
+      213: -1059096653777927871
+    second: Caja_municion_0
   - first:
-      213: -2854149438504192211
-    second: mono-picos-disparo-bien_1
+      213: 3444453301686232952
+    second: Caja_municion_1
   - first:
-      213: 3861713047611308499
-    second: mono-picos-disparo-bien_2
+      213: -1694192594804410467
+    second: Caja_municion_2
   - first:
-      213: -2454084981868210780
-    second: mono-picos-disparo-bien_3
+      213: 1552680934001749325
+    second: Caja_municion_3
   - first:
-      213: 2630442767411199270
-    second: mono-picos-disparo-bien_4
+      213: -8170368215318848302
+    second: Caja_municion_4
   - first:
-      213: 3081940965763017992
-    second: mono-picos-disparo-bien_5
-  - first:
-      213: -9492218181254571
-    second: mono-picos-disparo-bien_6
-  - first:
-      213: -2904288775980518097
-    second: mono-picos-disparo-bien_7
-  - first:
-      213: 8020974326709833310
-    second: mono-picos-disparo-bien_8
-  - first:
-      213: -4702460796644924890
-    second: mono-picos-disparo-bien_9
-  - first:
-      213: 8365106371604459957
-    second: mono-picos-disparo-bien_10
-  - first:
-      213: 500933500557676173
-    second: mono-picos-disparo-bien_11
-  - first:
-      213: -4222743569754654703
-    second: mono-picos-disparo-bien_12
-  - first:
-      213: -8703661633423246036
-    second: mono-picos-disparo-bien_13
+      213: -6316380533834440186
+    second: Caja_municion_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,7 +87,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -178,13 +154,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_0
+      name: Caja_municion_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 20
-        width: 112
-        height: 80
+        x: 1
+        y: 8
+        width: 30
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f296c4dc7097a0cf0800000000000000
-      internalID: -285282551968536273
+      spriteID: 14103c864355d41f0800000000000000
+      internalID: -1059096653777927871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_1
+      name: Caja_municion_1
       rect:
         serializedVersion: 2
-        x: 112
-        y: 20
-        width: 112
-        height: 80
+        x: 33
+        y: 8
+        width: 30
+        height: 17
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d27b31625360468d0800000000000000
-      internalID: -2854149438504192211
+      spriteID: 877ed6447082dcf20800000000000000
+      internalID: 3444453301686232952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_2
+      name: Caja_municion_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 20
-        width: 112
-        height: 80
+        x: 65
+        y: 8
+        width: 30
+        height: 18
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d9fc5b7e8f879530800000000000000
-      internalID: 3861713047611308499
+      spriteID: d97f59dafc40d78e0800000000000000
+      internalID: -1694192594804410467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_3
+      name: Caja_municion_3
       rect:
         serializedVersion: 2
-        x: 336
-        y: 20
-        width: 112
-        height: 80
+        x: 97
+        y: 8
+        width: 30
+        height: 19
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a5df1716b651fdd0800000000000000
-      internalID: -2454084981868210780
+      spriteID: d4d22b0451b3c8510800000000000000
+      internalID: 1552680934001749325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_4
+      name: Caja_municion_4
       rect:
         serializedVersion: 2
-        x: 448
-        y: 20
-        width: 112
-        height: 80
+        x: 129
+        y: 8
+        width: 30
+        height: 18
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62d3a81a2c5318420800000000000000
-      internalID: 2630442767411199270
+      spriteID: 2dc17c985650d9e80800000000000000
+      internalID: -8170368215318848302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mono-picos-disparo-bien_5
+      name: Caja_municion_5
       rect:
         serializedVersion: 2
-        x: 560
-        y: 20
-        width: 112
-        height: 80
+        x: 161
+        y: 8
+        width: 30
+        height: 17
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,96 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80d6703caf045ca20800000000000000
-      internalID: 3081940965763017992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mono-picos-disparo-bien_6
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 20
-        width: 112
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5520d2bb0e64edff0800000000000000
-      internalID: -9492218181254571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mono-picos-disparo-bien_7
-      rect:
-        serializedVersion: 2
-        x: 784
-        y: 20
-        width: 112
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f25f68eeeb4e1b7d0800000000000000
-      internalID: -2904288775980518097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mono-picos-disparo-bien_8
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 20
-        width: 112
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5e411837a9305f60800000000000000
-      internalID: 8020974326709833310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mono-picos-disparo-bien_9
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 20
-        width: 112
-        height: 80
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62267c5f1d08dbeb0800000000000000
-      internalID: -4702460796644924890
+      spriteID: 6022b9ebe55b758a0800000000000000
+      internalID: -6316380533834440186
       vertices: []
       indices: 
       edges: []
@@ -401,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 428e8f672ce43744da5f0968857f3ee2
+    spriteID: cd264b6f2839abc4fadc235601edd128
     internalID: 0
     vertices: []
     indices: 
@@ -411,16 +299,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mono-picos-disparo-bien_0: -285282551968536273
-      mono-picos-disparo-bien_1: -2854149438504192211
-      mono-picos-disparo-bien_2: 3861713047611308499
-      mono-picos-disparo-bien_3: -2454084981868210780
-      mono-picos-disparo-bien_4: 2630442767411199270
-      mono-picos-disparo-bien_5: 3081940965763017992
-      mono-picos-disparo-bien_6: -9492218181254571
-      mono-picos-disparo-bien_7: -2904288775980518097
-      mono-picos-disparo-bien_8: 8020974326709833310
-      mono-picos-disparo-bien_9: -4702460796644924890
+      Caja_municion_0: -1059096653777927871
+      Caja_municion_1: 3444453301686232952
+      Caja_municion_2: -1694192594804410467
+      Caja_municion_3: 1552680934001749325
+      Caja_municion_4: -8170368215318848302
+      Caja_municion_5: -6316380533834440186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
