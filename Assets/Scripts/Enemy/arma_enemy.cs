@@ -5,7 +5,7 @@ public class arma_enemy : MonoBehaviour
 
     public Transform spawnPoint;
     public GameObject bulletPrefab;
-
+    public PlayerSoundController soundController;
     public float shotForce = 80f;
     public float shotRate = 1f; // disparar cada segundo por defecto
 
@@ -47,6 +47,7 @@ public class arma_enemy : MonoBehaviour
 
     void Shoot()
     {
+        soundController.playDisparo();
         if (player == null) return;
         if (spawnPoint == null || bulletPrefab == null) return;
 

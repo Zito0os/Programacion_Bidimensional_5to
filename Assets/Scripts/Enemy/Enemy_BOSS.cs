@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy_BOSS : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class Enemy_BOSS : MonoBehaviour
     private Animator animator;
     private SpriteRenderer sprite;
     private arma_enemy arma;
-
+    public PlayerSoundController soundController;
     public Transform jugador; // Visible en el inspector, pero se llenará solo
 
     // Umbral para dejar de moverse cuando ya está casi alineado horizontalmente
@@ -131,11 +132,16 @@ public class Enemy_BOSS : MonoBehaviour
 
         //ESCENA PANTALLA FINAL 
 
-
+        soundController.playMorir();
 
 
         
         // Destruir después de que termine la animación (ajusta el tiempo según tu animación)
         Destroy(gameObject, .7f); // 1 segundo, ajusta según la duración de tu animación
+        int indiceActual = SceneManager.GetActiveScene().buildIndex;
+        int indiceAnterior = indiceActual + 2;
+
+
+        SceneManager.LoadScene(indiceAnterior);
     }
 }

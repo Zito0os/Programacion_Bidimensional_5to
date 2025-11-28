@@ -5,7 +5,7 @@ public class arma_BOSS : MonoBehaviour
 
     public Transform spawnPoint;
     public GameObject bulletPrefab;
-
+    public PlayerSoundController soundController;
     public float shotForce = 80f;
     public float shotRate = 1f; // disparar cada segundo por defecto
 
@@ -36,17 +36,18 @@ public class arma_BOSS : MonoBehaviour
     }
 
     // Llamado externamente para disparar si ya pasó el cooldown
-    public void ahora_Shoot()
-    {
-        if (player == null) return;
-        if (Time.time < nextShotTime) return;
-        Shoot();
-        nextShotTime = Time.time + shotRate;
-    }
+    //public void ahora_Shoot()
+    //{
+    //    if (player == null) return;
+    //    if (Time.time < nextShotTime) return;
+    //    Shoot();
+    //    nextShotTime = Time.time + shotRate;
+    //}
 
 
     void Shoot()
     {
+        soundController.playDisparo();
         if (player == null) return;
         if (spawnPoint == null || bulletPrefab == null) return;
 

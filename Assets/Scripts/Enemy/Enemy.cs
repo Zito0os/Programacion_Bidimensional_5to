@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     public float Vida = 100f;
     public float rangoDeteccion = 1f;
     public float rangoParada = .5f; // nueva distancia mínima: si el jugador está más cerca que esto, el enemigo dispara
-
+    public PlayerSoundController playerSoundController;
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer sprite;
@@ -128,7 +128,7 @@ public class Enemy : MonoBehaviour
 
         // Activar animación de muerte
         animator.SetBool("islive", false);
-
+        playerSoundController.playMorir();
         // Destruir después de que termine la animación (ajusta el tiempo según tu animación)
         Destroy(gameObject, .85f); // 1 segundo, ajusta según la duración de tu animación
     }

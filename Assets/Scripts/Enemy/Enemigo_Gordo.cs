@@ -8,7 +8,7 @@ public class EnemigoGordo : MonoBehaviour
     public float Vida = 100f;
     public float rangoDeteccion = 1f;
     public float rangoParada = .5f; // nueva distancia mínima: si el jugador está más cerca que esto, el enemigo dispara
-
+    public PlayerSoundController playerSoundController;
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer sprite;
@@ -104,7 +104,7 @@ public class EnemigoGordo : MonoBehaviour
     }
     private void ahora_si_atacar()
     {
-        
+        playerSoundController.playDisparo();
         GameManager.Instance.ReduceHealth(dañoGolpe);
 
     }
@@ -132,7 +132,7 @@ public class EnemigoGordo : MonoBehaviour
         // Activar animación de muerte
         animator.SetBool("muerto", true);
         animator.SetBool("islive", false);
-        
+        playerSoundController.playMorir();
         // Destruir después de que termine la animación
         Destroy(gameObject, 1.3f);
     }
