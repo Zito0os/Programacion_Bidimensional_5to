@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 100962149}
   m_Layer: 5
   m_Name: ArmaScript
-  m_TagString: Untagged
+  m_TagString: AmmoText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1762,7 +1762,7 @@ GameObject:
   - component: {fileID: 787402953}
   m_Layer: 5
   m_Name: VidaScript
-  m_TagString: Untagged
+  m_TagString: HealthText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

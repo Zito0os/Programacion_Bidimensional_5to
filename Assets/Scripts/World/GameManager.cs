@@ -8,11 +8,12 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI ammoText;
     public TextMeshProUGUI healthText;
-
+    [SerializeField] private float tiempoEspera = 2f;
     public int gunammo = 60;
-    public int health = 100;  
-
+    public int health = 100;
+    private float tiempoInicio;
     private bool jugadorMuerto = false;
+
 
     private void Awake()
     {
@@ -33,19 +34,28 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;  
     }
 
-    
+
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         
-        health = 100;
-        gunammo = 60;
-        jugadorMuerto = false;
+        ammoText = GameObject.FindWithTag("AmmoText")?.GetComponent<TextMeshProUGUI>();
+        healthText = GameObject.FindWithTag("HealthText")?.GetComponent<TextMeshProUGUI>();
 
-        Debug.Log("GameManager: Estadísticas reseteadas! Health=" + health + " Ammo=" + gunammo);
+        
+        UpdateUI();
+
+        
+    }
+
+    private void UpdateUI()
+    {
+        if (ammoText != null) ammoText.text = gunammo.ToString();
+        if (healthText != null) healthText.text = health.ToString();
     }
 
     private void Update()
     {
+        
         if (ammoText != null) ammoText.text = gunammo.ToString();
         if (healthText != null) healthText.text = health.ToString();
 
@@ -61,15 +71,21 @@ public class GameManager : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
-            jugadorMuerto = true;  
+            
+            
+
+            Invoke(nameof(CargarSiguienteEscena), 0.01f);
+
 
             
-            Invoke(nameof(CargarSiguienteEscena), 0.5f);
         }
     }
 
     private void CargarSiguienteEscena()
     {
+        health = 100;
+        gunammo = 60;
+
         int indiceActual = SceneManager.GetActiveScene().buildIndex;
         int indiceSiguiente = indiceActual + 1;
 

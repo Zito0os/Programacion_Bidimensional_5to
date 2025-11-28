@@ -48,7 +48,10 @@ public class pausayeso : MonoBehaviour
     public void Reiniciar()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameManager.Instance.ResetearEstadisticas();
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
     }
     public void Cerrar()
     {
