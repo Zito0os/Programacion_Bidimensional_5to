@@ -149,9 +149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abd7d660367d19b4b8fe67c723599f4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 0}
   velocidad: 3
   rangoDeteccion: 10
+  rangoParada: 7.5
+  jugador: {fileID: 0}
 --- !u!50 &6770477606209756391
 Rigidbody2D:
   serializedVersion: 5

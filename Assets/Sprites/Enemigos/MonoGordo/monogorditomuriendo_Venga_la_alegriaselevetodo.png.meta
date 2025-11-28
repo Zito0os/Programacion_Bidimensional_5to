@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: d4d2dd8ce941da14f9b83153e70a6b09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9041007972035111984
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_0
+  - first:
+      213: 2845278628536862335
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_1
+  - first:
+      213: -8532447797833501850
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_2
+  - first:
+      213: 4249618978858481664
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_3
+  - first:
+      213: 6149188078266174795
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_4
+  - first:
+      213: 5375763027129081395
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_5
+  - first:
+      213: 5270776219314046496
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_6
+  - first:
+      213: 8818844208697425851
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_7
+  - first:
+      213: 2118306602424042542
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_8
+  - first:
+      213: 1265718734661358796
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_9
+  - first:
+      213: -7187552664052635289
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_10
+  - first:
+      213: -4809248816519543874
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_11
+  - first:
+      213: -4459883629103213120
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_12
+  - first:
+      213: 1255008480639639732
+    second: monogorditomuriendo_Venga_la_alegriaselevetodo_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1823
+        width: 49
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d35f579623e78280800000000000000
+      internalID: -9041007972035111984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1823
+        width: 68
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7643f476d57c7720800000000000000
+      internalID: 2845278628536862335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_2
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1822
+        width: 86
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663f1994fe7a69980800000000000000
+      internalID: -8532447797833501850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_3
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1822
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0083e9122fda9fa30800000000000000
+      internalID: 4249618978858481664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_4
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1820
+        width: 62
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d4f163afd465550800000000000000
+      internalID: 6149188078266174795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1420
+        width: 67
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e15bcbdfb8a9a40800000000000000
+      internalID: 5375763027129081395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1418
+        width: 63
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0264ac2bb0f852940800000000000000
+      internalID: 5270776219314046496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1418
+        width: 59
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfbbe46514d26a70800000000000000
+      internalID: 8818844208697425851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_8
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1419
+        width: 63
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2489d2b1acb56d10800000000000000
+      internalID: 2118306602424042542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_9
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1419
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc41c0dab7cb09110800000000000000
+      internalID: 1265718734661358796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1019
+        width: 99
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769eabeeeeea04c90800000000000000
+      internalID: -7187552664052635289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1020
+        width: 140
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb382ee8ead124db0800000000000000
+      internalID: -4809248816519543874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_12
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1020
+        width: 141
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c519b3087f4b12c0800000000000000
+      internalID: -4459883629103213120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monogorditomuriendo_Venga_la_alegriaselevetodo_13
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1020
+        width: 141
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0e0a6509faa6110800000000000000
+      internalID: 1255008480639639732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c24b7e7103d11e442941fd8025d8f465
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      monogorditomuriendo_Venga_la_alegriaselevetodo_0: -9041007972035111984
+      monogorditomuriendo_Venga_la_alegriaselevetodo_1: 2845278628536862335
+      monogorditomuriendo_Venga_la_alegriaselevetodo_10: -7187552664052635289
+      monogorditomuriendo_Venga_la_alegriaselevetodo_11: -4809248816519543874
+      monogorditomuriendo_Venga_la_alegriaselevetodo_12: -4459883629103213120
+      monogorditomuriendo_Venga_la_alegriaselevetodo_13: 1255008480639639732
+      monogorditomuriendo_Venga_la_alegriaselevetodo_2: -8532447797833501850
+      monogorditomuriendo_Venga_la_alegriaselevetodo_3: 4249618978858481664
+      monogorditomuriendo_Venga_la_alegriaselevetodo_4: 6149188078266174795
+      monogorditomuriendo_Venga_la_alegriaselevetodo_5: 5375763027129081395
+      monogorditomuriendo_Venga_la_alegriaselevetodo_6: 5270776219314046496
+      monogorditomuriendo_Venga_la_alegriaselevetodo_7: 8818844208697425851
+      monogorditomuriendo_Venga_la_alegriaselevetodo_8: 2118306602424042542
+      monogorditomuriendo_Venga_la_alegriaselevetodo_9: 1265718734661358796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

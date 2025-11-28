@@ -8,9 +8,21 @@ public class Bala : MonoBehaviour
         // Si choca con un enemigo
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Destroy(collision.gameObject); // Destruye enemigo
-            Destroy(gameObject); // Destruye bala
+            Destroy(gameObject);
+
+            // Referencia al script del enemigo
+            //Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+            //if (enemy != null)
+            //{
+            //    enemy.QuitarVida(20); // Llama al método para quitarle vida
+            //}
+            // Destruye bala
+
+
+
         }
+
+        
 
         if (collision.gameObject.CompareTag("Piso"))
         {

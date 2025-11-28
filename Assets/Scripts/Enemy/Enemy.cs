@@ -28,7 +28,16 @@ public class Enemy : MonoBehaviour
                 jugador = playerObj.transform;
         }
     }
-
+    public void QuitarVida(int cantidad)
+    {
+        //Vida -= cantidad;
+        //if (rb != null)
+        //    rb.linearVelocity = Vector2.zero; // Resetea la velocidad
+        //if (Vida <= 0)
+        //{
+        //    Morir();
+        //}
+    }
     void FixedUpdate()
     {
         if (jugador == null) return;
