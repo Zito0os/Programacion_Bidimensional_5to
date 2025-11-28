@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Gun2D : MonoBehaviour
 {
+    public PlayerSoundController playerSoundController; // Referencia al controlador de sonidos del jugador
     public Transform spawnPoint;
     public GameObject bulletPrefab;
     public Transform crosshair;
@@ -43,6 +44,7 @@ public class Gun2D : MonoBehaviour
     }
     void Shoot()
     {
+        playerSoundController.playDisparo(); // Reproducir sonido de disparo
         GameManager.Instance.gunammo--;
 
         // Posición del mouse en el mundo

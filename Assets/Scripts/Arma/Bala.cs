@@ -53,6 +53,21 @@ public class Bala : MonoBehaviour
 
 
         }
+        if (collision.gameObject.CompareTag("BOSS"))
+        {
+
+
+            // Referencia al script del enemigo
+            Enemy_BOSS enemy = collision.gameObject.GetComponent<Enemy_BOSS>();
+            if (enemy != null)
+            {
+                enemy.QuitarVida(20); // Llama al método para quitarle vida
+            }
+            Destroy(gameObject); // Destruye bala
+
+
+
+        }
 
 
 
