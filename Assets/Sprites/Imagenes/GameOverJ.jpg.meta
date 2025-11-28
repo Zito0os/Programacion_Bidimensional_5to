@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b8e8d004bba5b694489a1aba0312c53e
+guid: 4b1415ebc7ded4541844ff63e61db96f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2682366765160571313
-    second: Mano_con_arma_version_3 1_0
+      213: 1107599515387061854
+    second: GameOverJ_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +139,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mano_con_arma_version_3 1_0
+      name: GameOverJ_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 6
-        width: 27
-        height: 13
-      alignment: 9
-      pivot: {x: 0.109567516, y: 0.67739177}
+        x: 0
+        y: 0
+        width: 1248
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4e5a4d83a156cad0800000000000000
-      internalID: -2682366765160571313
+      spriteID: e566a0414ebfe5f00800000000000000
+      internalID: 1107599515387061854
       vertices: []
       indices: 
       edges: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2dd833603a5049f40b543c7120011c44
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mano_con_arma_version_3 1_0: -2682366765160571313
+      GameOverJ_0: 1107599515387061854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,9 +1,9 @@
-using Unity.VisualScripting;
-using UnityEngine;
-using UnityEngine.Rendering;
+﻿using UnityEngine;
+using System.Collections;
 
-public class Enemy : MonoBehaviour
+public class EnemigoGordo : MonoBehaviour
 {
+
     public float velocidad = 3f;
     public float Vida = 100f;
     public float rangoDeteccion = 1f;
@@ -14,23 +14,22 @@ public class Enemy : MonoBehaviour
     private SpriteRenderer sprite;
     private arma_enemy arma;
 
-    public Transform jugador; // Visible en el inspector, pero se llenará solo
+    public float nextShotTime = 0f;
 
-    // Umbral para dejar de moverse cuando ya está casi alineado horizontalmente
-    private const float umbralParadaHorizontal = 0.05f;
+    public float intervalo_ataque = .4f;
+    public int dañoGolpe = 10;
+
+    public Transform jugador; // Visible en el inspector, pero se llenará solo
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
-        arma = GetComponentInChildren<arma_enemy>();
-        if (jugador == null)
-        {
-            GameObject playerObj = GameObject.FindWithTag("Player");
-            if (playerObj != null)
-                jugador = playerObj.transform;
-        }
+        GameObject playerObj = GameObject.FindWithTag("Player");
+        if (playerObj != null)
+            jugador = playerObj.transform;
+
     }
 
     void FixedUpdate()
@@ -43,40 +42,39 @@ public class Enemy : MonoBehaviour
         // la detección usa distancia total (X e Y)
         float distanciaTotal = Vector2.Distance(transform.position, jugador.position); // detección completa
 
+        int dis_total = (int)distanciaTotal;
+
         // Aquí lo limitamos al rango horizontal:
-        if (distanciaTotal < rangoDeteccion) // usamos distancia total para la detección y se detiene si es <= rangoParada
+        if (dis_total < rangoDeteccion) // usamos distancia total para la detección y se detiene si es <= rangoParada
         {
             //si esta dentro del rango va a disparars
-            if (distanciaTotal < rangoParada)
+            if (dis_total < rangoParada)
             {
-                animator.SetBool("esta_cerca", true);
-                animator.SetBool("caminando", false);
+                animator.SetBool("atacando", true);
+                animator.SetBool("camina", false);
                 // Disparar con cadencia controlada
-                if (arma != null)
-                {
-                    arma.ahora_Shoot();
-                }
 
+                atacar();
 
             }
             else
             {
-                animator.SetBool("caminando", true);
-                animator.SetBool("esta_cerca", false);
+                animator.SetBool("camina", true);
+                animator.SetBool("atacando", false);
                 // Determinar direccion horizontal
                 float deltaX = jugador.position.x - transform.position.x;
 
                 // Si ya está prácticamente alineado, no se mueve
-                if (distanciaHorizontal <= umbralParadaHorizontal)
-                {
-                    animator.SetBool("caminando", false);
-                    return;
-                }
+                //if (distanciaHorizontal <= umbralParadaHorizontal)
+                //{
+                //    animator.SetBool("caminando", false);
+                //    return;
+                //}
 
                 float direccionX = Mathf.Sign(deltaX); // -1 izquierda, 1 derecha
                 Vector2 movimiento = new Vector2(direccionX, 0f);
                 // Mover enemigo
-                
+
                 rb.MovePosition(rb.position + movimiento * velocidad * Time.fixedDeltaTime);
 
 
@@ -90,49 +88,54 @@ public class Enemy : MonoBehaviour
         {
 
             //Esta en Idle
-            animator.SetBool("esta_cerca", false);
-            animator.SetBool("caminando", false);
+            animator.SetBool("atacando", false);
+            animator.SetBool("camina", false);
 
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+
+
+    private void atacar()
     {
-        int daño = 20;
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            GameManager.Instance.ReduceHealth(daño);
-        }
+        if (Time.time < nextShotTime) return;
+        ahora_si_atacar();
+        nextShotTime = Time.time + intervalo_ataque;
+    }
+    private void ahora_si_atacar()
+    {
+        
+        GameManager.Instance.ReduceHealth(dañoGolpe);
+
     }
 
-    public void QuitarVida(int cantidad)
+    public void QuitarVida(float cantidad)
     {
         Vida -= cantidad;
-        if (rb != null)
-            rb.linearVelocity = Vector2.zero; // Resetea la velocidad
         if (Vida <= 0)
         {
             Morir();
         }
+       
     }
 
     private void Morir()
     {
         // Desactivar movimiento y colisiones
-        enabled = false; // Desactiva el script
+        enabled = false;
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
-            rb.simulated = false; // Desactiva la física
+            rb.simulated = false;
         }
-
+        
         // Activar animación de muerte
+        animator.SetBool("muerto", true);
         animator.SetBool("islive", false);
-
-        // Destruir después de que termine la animación (ajusta el tiempo según tu animación)
-        Destroy(gameObject, 1f); // 1 segundo, ajusta según la duración de tu animación
+        
+        // Destruir después de que termine la animación
+        Destroy(gameObject, 1.3f);
     }
-
 
 
 }

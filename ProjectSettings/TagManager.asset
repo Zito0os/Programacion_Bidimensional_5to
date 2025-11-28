@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Piso
   - Enemy
+  - AmmoText
+  - HealthText
+  - Gordo
   layers:
   - Default
   - TransparentFX

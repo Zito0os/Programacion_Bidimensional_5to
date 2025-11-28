@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: b8e8d004bba5b694489a1aba0312c53e
+guid: 681b3db34cb3f2e4295a2732fa22dec0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2682366765160571313
-    second: Mano_con_arma_version_3 1_0
+      213: -7849232567738960275
+    second: idle-enemigo-picos_0
+  - first:
+      213: 7542259943524210902
+    second: idle-enemigo-picos_1
+  - first:
+      213: 7214012449372534571
+    second: idle-enemigo-picos_2
+  - first:
+      213: 8979100974278370369
+    second: idle-enemigo-picos_3
+  - first:
+      213: 9091643097240021895
+    second: idle-enemigo-picos_4
+  - first:
+      213: 5193966917885033672
+    second: idle-enemigo-picos_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +154,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mano_con_arma_version_3 1_0
+      name: idle-enemigo-picos_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 6
-        width: 27
-        height: 13
-      alignment: 9
-      pivot: {x: 0.109567516, y: 0.67739177}
+        x: 7
+        y: 192
+        width: 45
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4e5a4d83a156cad0800000000000000
-      internalID: -2682366765160571313
+      spriteID: d66fd70119ce11390800000000000000
+      internalID: -7849232567738960275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-enemigo-picos_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 192
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d81b61457d7ba860800000000000000
+      internalID: 7542259943524210902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-enemigo-picos_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 192
+        width: 45
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27781ae9125d1460800000000000000
+      internalID: 7214012449372534571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-enemigo-picos_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 112
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144e93643cc2c9c70800000000000000
+      internalID: 8979100974278370369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-enemigo-picos_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 112
+        width: 45
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78baf933a310c2e70800000000000000
+      internalID: 9091643097240021895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-enemigo-picos_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 112
+        width: 45
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccfaab946da41840800000000000000
+      internalID: 5193966917885033672
       vertices: []
       indices: 
       edges: []
@@ -164,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2dd833603a5049f40b543c7120011c44
+    spriteID: c41ba8b45fa51374794e210786312052
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +299,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mano_con_arma_version_3 1_0: -2682366765160571313
+      idle-enemigo-picos_0: -7849232567738960275
+      idle-enemigo-picos_1: 7542259943524210902
+      idle-enemigo-picos_2: 7214012449372534571
+      idle-enemigo-picos_3: 8979100974278370369
+      idle-enemigo-picos_4: 9091643097240021895
+      idle-enemigo-picos_5: 5193966917885033672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

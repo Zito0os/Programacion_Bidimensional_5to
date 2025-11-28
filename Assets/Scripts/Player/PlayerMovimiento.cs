@@ -25,15 +25,24 @@ public class PlayerMovimiento : MonoBehaviour
 
 
     private bool facingRight = true; // estado actual
-
+    Vector3 armaPosInicial;
     public Transform crosshair; // la mirilla
 
     // Salto
     public float jumpHeight = 3f;
+    Vector3 manoPosInicial;
+    public Transform armaTransform;
+    public Transform personajeTransform;
+    public float walkArmOffsetY = 0.05f;
+    public float jumpArmOffsetY = 0.15f;
+    void Start()
+    {
+        armaPosInicial = armaTransform.localPosition;
+    }
 
     void Update()
     {
-        // Detectar si est� en el suelo
+        // Detectar si est  en el suelo
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, sphereRadius, groundMask);
 
         // Movimiento horizontal
@@ -45,7 +54,7 @@ public class PlayerMovimiento : MonoBehaviour
         // Animación caminar/idle
         animator.SetFloat("Speed", Mathf.Abs(x));
 
-        
+
 
 
 
@@ -70,23 +79,8 @@ public class PlayerMovimiento : MonoBehaviour
 
 
         //Sprite del jugador se voltea SOLO segun hacia dónde apunto
-        //animator.SetBool("lado_izq", spriteRenderer.flipX);
         spriteRenderer.flipX = !aimingRight;
         Mano_arma.flipY = !aimingRight;
-
-
-        //if (x > 0)
-        //{
-        //    spriteRenderer.flipX = !aimingRight;
-        //    Mano_arma.flipY = !aimingRight;
-        //}
-        //else if (x < 0)
-        //{
-        //    spriteRenderer.flipX = aimingRight;
-        //    Mano_arma.flipY = aimingRight;
-        //}
-
-
 
 
         //float moveX = Input.GetAxisRaw("Horizontal");
@@ -95,6 +89,31 @@ public class PlayerMovimiento : MonoBehaviour
         //    GetComponent<PlayerFlip>().Flip(moveX);
         //}
 
+        float xAbs = Mathf.Abs(x);
+        Vector3 offset = personajeTransform.localPosition;
+
+        // Si camina -> un poco arriba
+        if (xAbs > 0.1f && isGrounded)
+        {
+            offset.y += walkArmOffsetY;
+        }
+
+        // Si salta -> aún más arriba
+        if (!isGrounded)
+        {
+            offset.y += jumpArmOffsetY;
+        }
+
+        // Aplicar posición modificada al brazo
+        armaTransform.localPosition = offset;
+        // Aplicar suavizado para que no sea brusco
+        //armaTransform.localPosition = Vector3.Lerp(
+        //    personajeTransform.localPosition,
+        //    offset,
+        //    Time.deltaTime * 0.1f
+        //);
+
+        //armaTransform.localPosition = personajeTransform.localPosition;
 
 
         // Detectar si estoy caminando hacia atrás
@@ -116,7 +135,7 @@ public class PlayerMovimiento : MonoBehaviour
         //else if (x < 0)
         //    Mano_arma.flipX = true;
 
-        
+
 
 
 
@@ -124,7 +143,7 @@ public class PlayerMovimiento : MonoBehaviour
         //Salto
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            
+
             Rigidbody.linearVelocity = new Vector2(Rigidbody.linearVelocity.x, Mathf.Sqrt(jumpHeight * -2f * gravity));
             //animator.SetTrigger("Jump");
 

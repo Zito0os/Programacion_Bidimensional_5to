@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b8e8d004bba5b694489a1aba0312c53e
+guid: 20a52043655797a4b9555ea9ac43f3d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2682366765160571313
-    second: Mano_con_arma_version_3 1_0
+      213: 5531768353384538320
+    second: mono-picos-muricion_0
+  - first:
+      213: -3512940244742083711
+    second: mono-picos-muricion_1
+  - first:
+      213: -587218260776227704
+    second: mono-picos-muricion_2
+  - first:
+      213: 6493794841518035229
+    second: mono-picos-muricion_3
+  - first:
+      213: 2679027076663434626
+    second: mono-picos-muricion_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +151,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mano_con_arma_version_3 1_0
+      name: mono-picos-muricion_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 6
-        width: 27
-        height: 13
-      alignment: 9
-      pivot: {x: 0.109567516, y: 0.67739177}
+        x: 2
+        y: 40
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4e5a4d83a156cad0800000000000000
-      internalID: -2682366765160571313
+      spriteID: 0d0ab33420ac4cc40800000000000000
+      internalID: 5531768353384538320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-picos-muricion_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 40
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b69f2b5778f3fc0800000000000000
+      internalID: -3512940244742083711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-picos-muricion_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 40
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c6fc06a18c9d7f0800000000000000
+      internalID: -587218260776227704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-picos-muricion_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 40
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1152f4b0089e1a50800000000000000
+      internalID: 6493794841518035229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-picos-muricion_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 40
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d5d20aee0dd2520800000000000000
+      internalID: 2679027076663434626
       vertices: []
       indices: 
       edges: []
@@ -164,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2dd833603a5049f40b543c7120011c44
+    spriteID: 4293bf7b6e9de6d40aaa17ca58a612bd
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mano_con_arma_version_3 1_0: -2682366765160571313
+      mono-picos-muricion_0: 5531768353384538320
+      mono-picos-muricion_1: -3512940244742083711
+      mono-picos-muricion_2: -587218260776227704
+      mono-picos-muricion_3: 6493794841518035229
+      mono-picos-muricion_4: 2679027076663434626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

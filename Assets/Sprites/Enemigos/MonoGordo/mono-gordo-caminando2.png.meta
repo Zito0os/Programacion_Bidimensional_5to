@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b8e8d004bba5b694489a1aba0312c53e
+guid: c2c73a0952ce70a429fbbfd2588ead20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2682366765160571313
-    second: Mano_con_arma_version_3 1_0
+      213: 4704172326641549528
+    second: mono-gordo-caminando2_0
+  - first:
+      213: -1195435601906164116
+    second: mono-gordo-caminando2_1
+  - first:
+      213: -8180117169049545408
+    second: mono-gordo-caminando2_2
+  - first:
+      213: 6788876714124222991
+    second: mono-gordo-caminando2_3
+  - first:
+      213: -8391258424522528367
+    second: mono-gordo-caminando2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 28
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,6 +96,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -97,7 +122,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,7 +148,20 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -139,23 +177,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mano_con_arma_version_3 1_0
+      name: mono-gordo-caminando2_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 6
-        width: 27
-        height: 13
-      alignment: 9
-      pivot: {x: 0.109567516, y: 0.67739177}
+        x: 650
+        y: 173
+        width: 52
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4e5a4d83a156cad0800000000000000
-      internalID: -2682366765160571313
+      spriteID: 8d041bbaec3984140800000000000000
+      internalID: 4704172326641549528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-gordo-caminando2_1
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 175
+        width: 49
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e178c57a5f86fe0800000000000000
+      internalID: -1195435601906164116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-gordo-caminando2_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 175
+        width: 51
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0455abd56c26a7e80800000000000000
+      internalID: -8180117169049545408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-gordo-caminando2_3
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 175
+        width: 49
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02ab49076fe63e50800000000000000
+      internalID: 6788876714124222991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mono-gordo-caminando2_4
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 173
+        width: 52
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199a4d3fbe24c8b80800000000000000
+      internalID: -8391258424522528367
       vertices: []
       indices: 
       edges: []
@@ -164,7 +290,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2dd833603a5049f40b543c7120011c44
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +300,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mano_con_arma_version_3 1_0: -2682366765160571313
+      mono-gordo-caminando2_0: 4704172326641549528
+      mono-gordo-caminando2_1: -1195435601906164116
+      mono-gordo-caminando2_2: -8180117169049545408
+      mono-gordo-caminando2_3: 6788876714124222991
+      mono-gordo-caminando2_4: -8391258424522528367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

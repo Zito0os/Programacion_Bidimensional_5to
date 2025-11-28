@@ -10,18 +10,36 @@ public class Bala : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
 
-            
+
             // Referencia al script del enemigo
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
             if (enemy != null)
             {
-                enemy.QuitarVida(20); // Llama al mÃ©todo para quitarle vida
+                enemy.QuitarVida(20); // Llama al método para quitarle vida
             }
             Destroy(gameObject); // Destruye bala
 
 
 
         }
+
+        if (collision.gameObject.CompareTag("Gordo"))
+        {
+
+
+            // Referencia al script del enemigo
+            EnemigoGordo gordo = collision.gameObject.GetComponent<EnemigoGordo>();
+            if (gordo != null)
+            {
+                gordo.QuitarVida(20); // Llama al método para quitarle vida
+            }
+            Destroy(gameObject); // Destruye bala
+
+
+
+        }
+
+
 
         if (collision.gameObject.CompareTag("Piso"))
         {
@@ -31,7 +49,7 @@ public class Bala : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Player"))
         {
-            
+
             // Si choca con el jugador, no hace nada
             //Destroy(gameObject); // Destruye bala
             return;
