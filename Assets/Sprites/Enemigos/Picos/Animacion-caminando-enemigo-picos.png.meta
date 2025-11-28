@@ -175,12 +175,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 197
-        width: 44
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 18
+        y: 198
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 198
-        width: 44
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 199
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_2
       rect:
         serializedVersion: 2
-        x: 145
-        y: 203
-        width: 44
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 204
+        width: 42
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_3
       rect:
         serializedVersion: 2
-        x: 209
-        y: 197
-        width: 44
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 198
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,12 +263,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 133
-        width: 44
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 18
+        y: 134
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -285,12 +285,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 133
-        width: 44
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 134
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_6
       rect:
         serializedVersion: 2
-        x: 146
-        y: 133
-        width: 44
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 134
+        width: 42
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_7
       rect:
         serializedVersion: 2
-        x: 209
-        y: 133
-        width: 44
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 210
+        y: 134
+        width: 42
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_8
       rect:
         serializedVersion: 2
-        x: 19
-        y: 72
-        width: 44
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 20
+        y: 73
+        width: 42
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -373,12 +373,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_9
       rect:
         serializedVersion: 2
-        x: 83
-        y: 69
-        width: 44
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 84
+        y: 70
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,12 +395,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_10
       rect:
         serializedVersion: 2
-        x: 146
-        y: 69
-        width: 44
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 70
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -417,12 +417,12 @@ TextureImporter:
       name: Animacion-caminando-enemigo-picos_11
       rect:
         serializedVersion: 2
-        x: 210
-        y: 69
-        width: 44
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 211
+        y: 70
+        width: 42
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -439,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4b5f9786f54320541a988e1ad10693fb
     internalID: 0
     vertices: []
     indices: 

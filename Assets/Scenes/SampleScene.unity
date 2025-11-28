@@ -3436,7 +3436,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.12, y: 1}
+  m_Size: {x: 0.45, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3451,7 +3451,7 @@ Transform:
   m_GameObject: {fileID: 1435230093}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.799, y: -3.335, z: 0}
+  m_LocalPosition: {x: 27.63, y: -1.3, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3514,7 +3514,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
     oldSize: {x: 0.45, y: 0.5}
-    newSize: {x: 1.12, y: 1}
+    newSize: {x: 0.45, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -4105,9 +4105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 1685196421}
-  bulletPrefab: {fileID: 6645619161766496739, guid: 345c397369b1e8542bb66064c65122a9, type: 3}
+  bulletPrefab: {fileID: 6517726114711925939, guid: 5b0782b4e86e28f4096ca480e899d2c4, type: 3}
   shotForce: 80
-  shotRate: 1
+  shotRate: 0.8
   nextShotTime: 0
 --- !u!212 &1666264302
 SpriteRenderer:

@@ -128,6 +128,6 @@ public class Enemy_picos : MonoBehaviour
         animator.SetBool("islive", false);
 
         // Destruir después de que termine la animación (ajusta el tiempo según tu animación)
-        Destroy(gameObject, .85f); // 1 segundo, ajusta según la duración de tu animación
+        Destroy(gameObject, .7f); // 1 segundo, ajusta según la duración de tu animación
     }
 }
